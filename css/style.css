@@ -21,6 +21,10 @@ div {
   /*border: 1px solid white;*/
 }
 
+a {
+  color:  #ee7600; /*DarkOrange2*/
+}
+
 /*.row {
   width: 95%;
   margin-left: auto;
