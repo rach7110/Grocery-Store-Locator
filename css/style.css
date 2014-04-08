@@ -129,6 +129,22 @@ header h1 {
   margin-right: auto;
 }
 
+.locations {
+  text-align: center;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  text-transform: uppercase;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*********************************************
 SIDEBAR FEATURES
 **********************************************/
