@@ -1,0 +1,143 @@
+<!-- ************************************************
+A WEB VIEW VIEW THAT GIVES BASIC INSTRUCITONS FOR 
+ONLINE ORDERING AT A GROCERY STORE.
+**************************************************** 
+WRITTEN AS A CODING CHALLENGE FOR A FRONTEND DEVELOPER POSITION AT WHOLE FOODS MARKET IN AUSTIN, TX 04/07/2014 ************************************************ -->
+<!DOCTYPE html>
+<head>
+  <title>Whole Foods</title>
+  <link rel="stylesheet" text="text/css" href="css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo"><img src="images/WFM-logo.png"></div>
+      <div><h1>Online Ordering</h1></div>
+    </header>
+<!-- 
+**************************************************** 
+MAIN ORDERING SECTION
+**************************************************** 
+-->
+    <div class="main">
+      <div class="inner">
+        <div class="upper">
+          <div>
+            <h2>Let Us Do Your Shopping!</h2>
+            <p>Odd Future Banksy brunch, organic Intelligentsia Shoreditch tousled 3 wolf moon farm-to-table literally messenger bag normcore ethnic. XOXO craft beer direct trade wayfarers American Apparel chambray PBR tattooed keffiyeh. Craft beer gentrify chambray, 8-bit try-hard 90's farm-to-table Wes Anderson cray Brooklyn pork belly slow-carb swag McSweeney's. Intelligentsia Neutra keytar, Godard fixie irony iPhone synth Marfa. Viral DIY church-key farm-to-table Shoreditch, raw denim literally cornhole banh mi quinoa Cosby sweater biodiesel photo booth. Ugh paleo banjo, fingerstache meh PBR cray High Life narwhal Tumblr kale chips four loko pour-over locavore. Gentrify biodiesel fixie, PBR XOXO before they sold out Marfa church-key +1 DIY cliche kitsch.</p>
+          </div>
+        </div>
+        <div class="middle">
+          <div>
+            <div class="column">
+              <div class="instructions">
+                <img src="images/wfm-n01.png">
+                <h5>Place Your Order Online</h5>
+              </div>
+              <div>
+                <img src="images/wfm-image-01.jpg">
+              </div>
+            </div>
+            <div class="column">
+              <div class="instructions">
+                <img src="images/wfm-n02.png">
+                <h5>We'll Gather Your Items</h5>
+              </div>
+              <div>
+                <img src="images/wfm-image-02.jpg">
+              </div> 
+            </div>
+            <div class="column">
+              <div class="instructions">
+                <img src="images/wfm-n03.png">
+                <h5>Pick It Up at Our Store</h5>
+              </div>
+              <div>
+                <img src="images/wfm-image-03.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lower">
+          <div>
+            <p>To begin shopping, pick a store</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- 
+**************************************************** 
+SIDEBAR: SELECT FEATURED PRODUCTS BY CATEOGRY
+**************************************************** 
+-->
+    <div class="sidebar">
+      <div id="sidebar-title">
+        <h3>Featured This Week</h3>
+      </div>
+      <div class="sidebar-content">
+<!-- Featured Item 01 -->
+        <div class="category" id="category01">
+          <p><strong><a href="#">Beverages</a></strong></p>
+          <ul class="sub-nav">
+            <li><a href='#'>Beverage 1</a></li>
+            <li><a href='#'>Beverage 2</a></li>
+            <li><a href='#'>Beverage 3</a></li>
+            <li><a href='#'>Beverage 4</a></li>
+            <li><a href='#'>Beverage 5</a></li>
+            <li><a href='#'>Beverage 6</a></li>
+          </ul>
+        </div>
+<!-- Featured Item 02 -->
+        <div class="category" id="category02">
+          <p><strong><a href="#">Fresh Produce</a></strong></p>
+          <ul class="sub-nav">
+            <li><a href='#'>Produce 1</a></li>
+            <li><a href='#'>Produce 2</a></li>
+            <li><a href='#'>Produce 3</a></li>
+            <li><a href='#'>Produce 4</a></li>
+            <li><a href='#'>Produce 5</a></li>
+            <li><a href='#'>Produce 6</a></li>
+          </ul>
+        </div>
+<!-- Featured Item 03 -->
+        <div class="category" id="category03">
+          <p><strong><a href="#">Meat &amp; Poultry</a></strong></p>
+          <ul class="sub-nav">
+            <li><a href='#'>Meat &amp; Poultry 1</a></li>
+            <li><a href='#'>Meat &amp; Poultry 2</a></li>
+            <li><a href='#'>Meat &amp; Poultry 3</a></li>
+            <li><a href='#'>Meat &amp; Poultry 4</a></li>
+            <li><a href='#'>Meat &amp; Poultry 5</a></li>
+            <li><a href='#'>Meat &amp; Poultry 6</a></li>
+          </ul>
+        </div>
+<!-- Featured Item 04 -->
+        <div class="category" id="category04">
+          <p><strong><a href="#">Snacks</a></strong></p>
+          <ul class="sub-nav">
+            <li><a href='#'>Snacks 1</a></li>
+            <li><a href='#'>Snacks 2</a></li>
+            <li><a href='#'>Snacks 3</a></li>
+            <li><a href='#'>Snacks 4</a></li>
+            <li><a href='#'>Snacks 5</a></li>
+            <li><a href='#'>Snacks 6</a></li>
+          </ul>
+        </div>
+<!-- Featured Item 05 -->
+        <div class="category" id="category05">
+          <p><strong><a href="#">Specialty</a></strong></p>
+          <ul class="sub-nav">
+            <li><a href='#'>Specialty 1</a></li>
+            <li><a href='#'>Specialty 2</a></li>
+            <li><a href='#'>Specialty 3</a></li>
+            <li><a href='#'>Specialty 4</a></li>
+            <li><a href='#'>Specialty 5</a></li>
+            <li><a href='#'>Specialty 6</a></li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  <script type = "text/javascript" src="javascript/wfm.js"></script>
+</body>
