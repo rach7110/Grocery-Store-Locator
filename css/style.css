@@ -11,35 +11,23 @@ body {
 
 .container {
   padding-top: 0;
-  margin-right: 60px;
-  margin-left: 60px;
-}
-
-div {
-/*  padding: 20px;
-  margin: 10px;*/
-  /*border: 1px solid white;*/
+  margin-right: auto;
+  margin-left: auto;
+  width: 75%;
 }
 
 a {
   color:  #ee7600; /*DarkOrange2*/
 }
 
-/*.row {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}*/
-
 .main div {
-  border: 1px solid black;
+  /*border: 1px solid black;*/ /*BORDER: FOR VIEWING DIV LAYOUTS DURING MOCKUP*/
 }
 
 header { 
   padding: 0;
   padding-top: 30px;
   margin: 10px 10px 10px 0px;
-  /*border: 1px solid red;*/
 }
 
 header:after {
@@ -54,7 +42,7 @@ header:after {
   padding: 0;
   margin: 0;
   float: left;
-  border-color: green;
+  /*border-color: green;*/ /*BORDER: FOR VIEWING DIV LAYOUTS DURING MOCKUP*/
 }
 
 .logo img { 
@@ -72,7 +60,7 @@ header h1 {
 .main {
   background-image: url("../images/wfm-paperTile-bg.jpg");
   float: left;
-  width: 75%;
+  width: 72%;
 }
 
 .main .inner{
@@ -100,7 +88,7 @@ header h1 {
 .middle div {
   padding: 0;
   margin: 0;
-  border-color: orange;
+  /*border-color: orange;*/ /*BORDER: FOR VIEWING DIV LAYOUTS DURING MOCKUP*/
 }
 
 .middle .column {
@@ -110,7 +98,8 @@ header h1 {
 }
 
 .column .instructions {
-  border: 1px red solid;
+  padding-bottom: 15px;
+  /*border: 1px red solid;*/ /*BORDER: FOR VIEWING DIV LAYOUTS DURING MOCKUP*/
 }
 
 .instructions img {
@@ -137,7 +126,7 @@ select {
 
 #address {
   height: 165px;
-  padding-left: 40%;
+  padding-left: 35%;
 }
 
 #address p {
@@ -148,16 +137,18 @@ select {
   margin-right: auto;
 }
 
-.button {
-/*  margin-left: auto;
-  margin-right: auto;*/
-}
+.button { }
 
 button {
   text-transform: uppercase;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  background-color: #ee7600; /*Dark Orange*/ 
+  height: 40px;
 }
 
 /*********************************************
@@ -167,7 +158,7 @@ SIDEBAR FEATURES
   background-image: url("../images/wfm-paperTile-bg.jpg");
   float: right;
   width: 22%;
-  height: 835px;
+  height: 870px;
   padding: 0;
   margin: 0; 
 }
@@ -238,11 +229,10 @@ ul.sub-nav {
 
 ul.visible {
   display: block;
-  /*padding: 0, 0, 0, 10px;*/
   margin-left: 10px;
 }
 
-/*
+/* 
 @media all (min-width: 650px) {
   .row {
     width: 100%;
