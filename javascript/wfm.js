@@ -26,24 +26,21 @@ $(document).ready(function() {
     var address01 = "";
     var address02 = "";
     $('select').each(function(){
-      arrayAddress = $(this.options[this.selectedIndex]).data('address');
+      arrayAddress = $(this.options[this.selectedIndex]).data('store');
       var arr = arrayAddress.split(',');
-      address01 = arr[0];
-      address02 = arr[1];
-      telephone = arr[2];
-      time = arr[3];
+      arr01 = arr[0];
+      arr02 = arr[1];
+      arr03 = arr[2];      
+      arr04 = arr[3];
+      arr05 = arr[4];
       name = $("select option:selected").text();
 
-      if (jQuery.type(address01) === "string"){
-        $('#address').append('<p><strong>' + name + '</strong></p>');  
-        $('#address').append('<p>' + address01 + '</p>');
-        $('#address').append('<p>' + address02 + '</p>');
-        $('#address').append('<p>Phone: ' + telephone + '</p>');
-        $('#address').append('<p>Time: ' + time + '</p>'); 
-      } else {
-        alert("Fail");
+      $('#address').append('<p><strong>' + name + '</strong></p>')
+      var i = 0
+      while ((i < arr.length) && (arr[i].length > 0)){ //2nd validation confirms the string is not empty.
+        $('#address').append('<p>' + arr[i] + '</p>');
+        i ++ ;
       };
-
     });
   });
 });
