@@ -21,6 +21,7 @@ $(document).ready(function() {
 	// ***************************************************
 	// APPENDS STORE ADDRESS TO WEBPAGE WHEN LOCATION IS SELECTED FROM DROPDOWN MENU.
 	$('form').on('change', 'select', function(){
+    $('#address').empty();
     var arrayAddress = [];
     var address01 = "";
     var address02 = "";
