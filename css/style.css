@@ -129,13 +129,28 @@ header h1 {
   margin-right: auto;
 }
 
-.locations {
-  text-align: center;
+select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#address {
+  height: 150px;
+  padding-left: 40%;
+}
+
+#address p {
+  margin-top: .25em;
+  margin-bottom: .25em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
-  margin-left: auto;
-  margin-right: auto;
+/*  margin-left: auto;
+  margin-right: auto;*/
 }
 
 button {
@@ -145,10 +160,6 @@ button {
   margin-right: auto;
 }
 
-.address {
-  height: 150px;
-}
-
 /*********************************************
 SIDEBAR FEATURES
 **********************************************/
@@ -156,7 +167,7 @@ SIDEBAR FEATURES
   background-image: url("../images/wfm-paperTile-bg.jpg");
   float: right;
   width: 22%;
-  height: 750px;
+  height: 835px;
   padding: 0;
   margin: 0; 
 }
