@@ -64,9 +64,34 @@ MAIN ORDERING SECTION
           <div>
             <p>To begin shopping, please select a store location:</p>
           </div>
-          <div>
-            <input type="dropdown">
-          </div>
+          <form class="locations">
+            <div>
+              <!-- See this "locations[]" name? -->
+              <!-- This is turned into an array of items -->
+              <select name="location[]">
+                <option>Please select a location</option>
+                <optgroup label="Austin">
+                  <option value="arbortrails">Arbor Trails TX</option>
+                </optgroup>
+                <optgroup label="Arlington">
+                  <option value="arlington">Arlington TX</option>
+                  <option value="domain">Domain</option>
+                  <option value="gateway">Gateway</option>
+                  <option value="lamar">Lamar</option>
+                </optgroup>
+                <optgroup label="Bee Cave">
+                  <option value="beecave">Bee Cave</option>
+                </optgroup>
+                <optgroup label="Dallas">
+                  <option value="dallas">Forest</option>
+                  <option value="dallas">Lakewood</option>
+                </optgroup>  
+                  <!-- See this 'data-price' attribute? -->
+                  <!-- We can create arbitrary attributes in HTML5 by prepending the attribute name with 'data-' -->
+<!--                   <option data-price="300" value="americano">Americano — $3.00</option> -->
+              </select>
+            </div>
+          </form>
         </div>
       </div>
     </div>
