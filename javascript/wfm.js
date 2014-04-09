@@ -26,16 +26,14 @@ $(document).ready(function() {
   $('form').on('change', 'select', function(){
     $('#address').empty();
     var arrayAddress = [];
-    var address01 = "";
-    var address02 = "";
     $('select').each(function(){
       arrayAddress = $(this.options[this.selectedIndex]).data('store');
       var arr = arrayAddress.split(',');
-      arr01 = arr[0];
-      arr02 = arr[1];
-      arr03 = arr[2];      
-      arr04 = arr[3];
-      arr05 = arr[4];
+      info01 = arr[0];
+      info02 = arr[1];
+      info03 = arr[2];      
+      info04 = arr[3];
+      info05 = arr[4];
       name = $("select option:selected").text();
       $('#address').append('<p><strong>' + name + '</strong></p>')
       var i = 0
