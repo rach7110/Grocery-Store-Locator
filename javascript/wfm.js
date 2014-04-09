@@ -29,11 +29,11 @@ $(document).ready(function() {
     $('select').each(function(){
       arrayAddress = $(this.options[this.selectedIndex]).data('store');
       var arr = arrayAddress.split(',');
-      info01 = arr[0];
-      info02 = arr[1];
-      info03 = arr[2];      
-      info04 = arr[3];
-      info05 = arr[4];
+      // info01 = arr[0];
+      // info02 = arr[1];
+      // info03 = arr[2];      
+      // info04 = arr[3];
+      // info05 = arr[4];
       name = $("select option:selected").text();
       $('#address').append('<p><strong>' + name + '</strong></p>')
       var i = 0
